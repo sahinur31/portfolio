@@ -1,0 +1,13 @@
+.card:hover {
+    transform: translateY(-1em) translateX(-0.3em);
+    border: 2px solid #0ff;
+    background-color: #0ff;
+}
+.card {
+    
+    box-shadow: 5px 5px 5px 5px light #d3d3d3;
+    transition: transform .3s;
+}
+.card img {
+    height: 200px;
+}

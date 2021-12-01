@@ -1,0 +1,24 @@
+.profile-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.main {
+    height: 90vh;
+    background: url(../../images/banner.jpg) no-repeat center / cover;
+}
+.icons h2 svg {
+    margin: 5px 8px;
+    color: white;
+}
+.particle-content{
+    position: relative;
+    z-index: 1;
+}
+.resume {
+    border: 1px solid #FF8F00;
+    transition: .5s;
+}
+.resume:hover {
+    background-color: #FF8F00;
+}
